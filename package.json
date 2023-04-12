@@ -1,0 +1,37 @@
+{
+  "name": "automation-practice_bwell",
+  "version": "1.0.0",
+  "description": "Automation practice with cucumber/javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cucumber-js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/castanedadev-edu/AutomationPracticeBDD.git"
+  },
+  "keywords": [
+    "javascript",
+    "cucumber",
+    "puppeteer"
+  ],
+  "author": "Rick Castaneda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/castanedadev-edu/AutomationPracticeBDD/issues"
+  },
+  "homepage": "https://github.com/castanedadev-edu/AutomationPracticeBDD#readme",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "selenium-webdriver": "^4.1.0"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^8.0.0-rc.1",
+    "eslint": "^8.6.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0"
+  }
+}
